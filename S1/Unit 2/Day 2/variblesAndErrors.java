@@ -82,6 +82,20 @@ public class variblesAndErrors { // Program Start
         //Usally wrong spelling error
         // The carrot shows us where the error is
 
+        //If you are missing a bracket you will get an error
+        // That says reached end of line while parsing
+        //This is why you label your bracket
+        //Don't start adding random brackets
+        //When you have a bracket issue it best to start at the top and work your way down bracket by bracket
+
+        // You should figure out what brackets are lined upo
+
+        //If you have an extra parenteces or bracket you will get an error that syas class, interfacem, enum, or record expected.
+        //It usally won;t tell you where the problem is at
+
+        //When this happens you want to look for any parenteces that aren't lining up
+        //Otherwise look at the brackets
+
     }// Main End
 
 }//Program End
