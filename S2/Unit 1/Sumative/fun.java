@@ -1,3 +1,7 @@
+//Henry Veedahl
+//Unit 1 Sumative
+//This project provides a suite of tools for creating usernames out of emails.
+
 public class fun{ //Start Class
 
     public static String username1(String email){ //Start Username 1
@@ -99,7 +103,17 @@ public class fun{ //Start Class
         return(returnName);
     } //End emailParser
 
-    public static void main(String[] biggie){ //Start Main
-        System.out.println(username3("henry.veedahl@outlook.com"));
+    public static void main(String[] liverTheDog){ //Start Main
+        //Test Case 1
+        System.out.println(username1("joseph.martin@school.org"));
+        System.out.println(username2("joseph.martin@school.org"));
+        System.out.println(username3("joseph.martin@school.org"));
+        System.out.println();
+
+        //Test Case 2
+        System.out.println(username1("virginia.farmingham@school.net"));
+        System.out.println(username2("virginia.farmingham@school.net"));
+        System.out.println(username3("virginia.farmingham@school.net"));
+
     } //End Main
 } // End Class
